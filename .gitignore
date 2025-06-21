@@ -1,0 +1,18 @@
+# === Java Backend ===
+backend/target/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/application.yml  # シークレット情報（APIキー, JWT）含むなら除外
+
+# === React Frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local  # APIキーなど入れる用
+
+# === Python仮想環境（使う場合）===
+backend-python/.venv/
+
+# === OS / エディタ固有ファイル ===
+.DS_Store
+.vscode/

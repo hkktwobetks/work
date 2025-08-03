@@ -1,6 +1,6 @@
-package com.example.backend.repository;
+package com.example.backend.order;
 
-import com.example.backend.model.OrderItem;
+import com.example.backend.order.OrderItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

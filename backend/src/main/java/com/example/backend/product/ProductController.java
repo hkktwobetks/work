@@ -1,7 +1,7 @@
-package com.example.backend.controller;
+package com.example.backend.product;
 
-import com.example.backend.model.Product;
-import com.example.backend.service.ProductService;
+import com.example.backend.product.Product;
+import com.example.backend.product.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

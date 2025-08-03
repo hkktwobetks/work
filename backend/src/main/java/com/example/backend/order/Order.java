@@ -1,5 +1,6 @@
-package com.example.backend.model;
+package com.example.backend.order;
 
+import com.example.backend.user.User;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

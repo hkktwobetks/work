@@ -1,4 +1,4 @@
-package com.example.backend.security;
+package com.example.backend.common.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;

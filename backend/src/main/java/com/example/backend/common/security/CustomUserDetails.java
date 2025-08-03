@@ -1,6 +1,6 @@
-package com.example.backend.security;
+package com.example.backend.common.security;
 
-import com.example.backend.model.User;
+import com.example.backend.user.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;

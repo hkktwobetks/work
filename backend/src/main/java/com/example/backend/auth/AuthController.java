@@ -1,18 +1,16 @@
-// backend/src/main/java/com/example/backend/controller/AuthController.java
-
-package com.example.backend.controller;
+package com.example.backend.auth;
 import org.springframework.http.ResponseEntity;
 import java.util.Map;
-import com.example.backend.model.User;
-import com.example.backend.repository.UserRepository;
-import com.example.backend.security.JwtUtil;
+import com.example.backend.user.User;
+import com.example.backend.user.UserRepository;
+import com.example.backend.common.security.JwtUtil;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.*;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-import com.example.backend.security.MyUserDetailsService;
+import com.example.backend.common.security.MyUserDetailsService;
 import java.util.Optional;
 
 @RestController

@@ -1,6 +1,7 @@
-package com.example.backend.model;
+package com.example.backend.order;
 
 import jakarta.persistence.*;
+import com.example.backend.product.Product;
 
 
 @Entity

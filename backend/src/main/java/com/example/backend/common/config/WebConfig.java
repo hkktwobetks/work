@@ -1,5 +1,4 @@
-// src/main/java/com/example/backend/config/WebConfig.java
-package com.example.backend.config;
+package com.example.backend.common.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.*;

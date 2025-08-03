@@ -1,5 +1,5 @@
 // backend/security/JwtFilter.java
-package com.example.backend.security;
+package com.example.backend.common.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

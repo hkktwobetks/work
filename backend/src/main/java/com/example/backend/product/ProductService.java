@@ -1,7 +1,7 @@
-package com.example.backend.service;
+package com.example.backend.product;
 
-import com.example.backend.model.Product;
-import com.example.backend.repository.ProductRepository;
+import com.example.backend.product.Product;
+import com.example.backend.product.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

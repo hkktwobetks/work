@@ -1,8 +1,7 @@
-// backend/security/MyUserDetailsService.java
-package com.example.backend.security;
+package com.example.backend.common.security;
 
-import com.example.backend.model.User;
-import com.example.backend.repository.UserRepository;
+import com.example.backend.user.User;
+import com.example.backend.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.Service;
